@@ -104,10 +104,13 @@ html {
 }
 
 .search-form__pseudo-checkbox {
-  width: 19px;
-  height: 19px;
-  border: #fff solid 1px;
-  padding: 1px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 19px;
+	height: 19px;
+	border: #fff solid 1px;
+	padding: 1px;
 }
 
 .search-form__pseudo-checkbox::after {
