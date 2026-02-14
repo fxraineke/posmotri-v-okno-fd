@@ -11,7 +11,7 @@ html {
 .page {
   display: flex;
   justify-content: center;
-  align-content: center;
+  align-items: center;
   margin: auto;
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
@@ -26,7 +26,6 @@ html {
   align-content: end;
   gap: 30px;
   width: 1140px;
-  margin: 133px 30px;
 }
 
 .result {
@@ -134,6 +133,7 @@ html {
   font-size: 18px;
   background-color: transparent;
   cursor: pointer;
+  appearance: none;
 }
 
 .button:hover {
@@ -177,10 +177,10 @@ html {
   position: relative;
   display: grid;
   gap: 30px;
-  height: 298px;
-  overflow: hidden auto;
   width: 399px;
+  height: 298px;
   padding: 2px;
+  overflow: hidden auto;
 }
 
 .content__list {
@@ -247,6 +247,7 @@ html {
 }
 
 .content__video-card-thumbnail {
+  flex-shrink: 0;
   max-width: 194px;
   height: 103px;
   object-fit: cover;
@@ -255,6 +256,7 @@ html {
 
 .more-button {
   width: 100%;
+  max-width: 390px;
 }
 
 h1,
