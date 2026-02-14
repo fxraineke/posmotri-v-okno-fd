@@ -104,9 +104,6 @@ html {
 }
 
 .search-form__pseudo-checkbox {
-	display: flex;
-	justify-content: center;
-	align-items: center;
 	width: 19px;
 	height: 19px;
 	border: #fff solid 1px;
